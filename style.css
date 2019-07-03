@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(61, 74, 116);
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(254, 254, 255);
+    flex-direction: column;
+}
+
+body {
+    background-color: rgb(223, 223, 223);
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+button {
+    background-color: rgb(61, 74, 116); /* Green */
+    border: solid 5px rgb(27, 38, 77);
+    color: rgb(254, 254, 255);
+    padding: 15px 32px;
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
